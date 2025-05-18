@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "(gdb) Launch R",
-      "type": "node",
+      "type": "cppdbg",
       "request": "launch",
       "program": "C:/Program Files/R/R-4.4.3/bin/R.exe",
       "args": [
@@ -11,10 +11,14 @@
         "-e",
         "source('debug/debug.R')"
       ],
-      "env": {
-        "R_HOME" : "C:/Program Files/R/R-4.4.3/"
-      },
-      "stopOnEntry": false
+      "environment": [{
+        "name": "R_HOME", "value" : "C:/Program Files/R/R-4.4.3/"
+      }],
+      "cwd": "${workspaceFolder}",
+      "windows": {
+        "MIMode": "gdb",
+        "miDebuggerPath": "C:/Strawberry/c/bin/gdb.exe"
+      }
     }
   ]
 }
