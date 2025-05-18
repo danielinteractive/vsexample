@@ -9,13 +9,12 @@
       "args": [
         "--vanilla",
         "-e",
-        "source('debug/debug.R')",
-        "print('Finished args')"
+        "source('debug/debug.R')"
       ],
       "stopAtEntry": false,
       "envFile": "${workspaceFolder}/.vscode/.env",
       "cwd": "${workspaceFolder}",
-      "externalConsole": false,
+      "externalConsole": true,
       "windows": {
         "MIMode": "gdb",
         "miDebuggerPath": "C:/Strawberry/c/bin/gdb.exe"
