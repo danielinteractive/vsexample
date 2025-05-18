@@ -1,5 +1,5 @@
 ^vsexample\.Rproj$
 ^\.Rproj\.user$
 ^\.vscode$
-^tools$
 ^LICENSE\.md$
+^debug$

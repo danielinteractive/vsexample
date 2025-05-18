@@ -1,16 +1,14 @@
 {
   "configurations": [
     {
-      "name": "Mac",
+      "name": "Win32",
       "includePath": [
         "${workspaceFolder}/**",
-        "/Library/Frameworks/R.framework/Resources/include",
-        "/Library/Frameworks/R.framework/Versions/Current/Resources/library/cpp11/include"
+        "C:/Users/Daniel/AppData/Local/R/win-library/4.4/cpp11/include",
+        "C:/Users/Daniel/AppData/Local/R/win-library/4.4/Rcpp/include",
+        "C:/Program Files/R/R-4.4.3/include"
       ],
-      "macFrameworkPath": [
-        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-      ],
-      "compilerPath": "/usr/bin/clang",
+      "compilerPath": "C:/rtools44/x86_64-w64-mingw32.static.posix/bin/g++.exe",
       "cStandard": "c99",
       "cppStandard": "c++11"
     }
